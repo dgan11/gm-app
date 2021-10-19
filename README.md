@@ -1,15 +1,14 @@
-# Basic Sample Hardhat Project
+# GM App
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+decentralized app (Solidity Smart Contract + Front end) where users can connect their wallet and send a "gm" message to all others building/learning in the web3.0 space.
 
-Try running some of the following tasks:
+The App handles
+- Authentication of a user by metamask
+- Writing to the smart contract, storing messages on chain, and emitting events whenever an update happens so the app updates in real time/without refreshing
+- Reading the smart contract for values (Total # of gms sent, address of the last person to say gm, & all the messages that have been sent so far)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+## See it in action here:
+https://gm-app.davidgan.repl.co/
+
+## What it looks like:
+![Landing Page](https://github.com/dgan11/gm-app/demo.png)
