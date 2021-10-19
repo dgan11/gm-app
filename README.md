@@ -11,4 +11,4 @@ The App handles
 https://gm-app.davidgan.repl.co/
 
 ## What it looks like:
-![Landing Page](https://github.com/dgan11/gm-app/demo.png)
+![Landing Page](https://github.com/dgan11/gm-app/demo1.png)
